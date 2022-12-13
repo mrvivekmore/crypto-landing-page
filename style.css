@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.section-hero {
+  min-height: 100vh;
+  background-image: url("./img/bg.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.btn {
+  background-color: #df07f3;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  transform: translateY(-5px);
+}
+
+/* ------------------------------ */
+/* ---------- HEADER ------------ */
+/* ------------------------------ */
+
+header {
+  background-color: #000;
+  color: #fff;
+}
+
+nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  min-height: 12vh;
+  display: flex;
+  gap: 70px;
+  align-items: center;
+}
+
+.logo {
+  width: 110px;
+  cursor: pointer;
+}
+
+.line {
+  border-right: 2px solid #a7a7a7;
+  height: 50px;
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.nav-link {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.nav-link:hover {
+  color: #a7a7a7;
+}
+
+.nav-btn-div {
+  margin-left: auto;
+}
+
+.nav-btn {
+  padding: 8px 20px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* -------------------------- */
+/* --------- HERO ----------- */
+/* -------------------------- */
+
+.hero {
+  min-height: 88vh;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-heading {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.hero-description {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1.4;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.hero-btn {
+  padding: 14px 28px;
+  font-size: 24px;
+  font-weight: 600;
+}
